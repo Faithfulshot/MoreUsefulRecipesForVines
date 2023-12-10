@@ -1,0 +1,28 @@
+[
+	{
+		ingredientPattern: "W,W,S",
+		shapeless: true,
+		ingredients: {
+			"W": {
+				type: "block",
+				code: "wildvine-section-north",
+				quantity: 2,
+				name: "wildvine"
+			},
+			"S": {
+				type: "block",
+				code: "sieve-*",
+				quantity: 1,
+				isTool: true,
+				toolDurabilityCost: 1
+			}
+		},
+		width: 1,
+		height: 3,
+		output: {
+			type: "item",
+			code: "plant-paper-raw"
+		},
+	}
+
+]
